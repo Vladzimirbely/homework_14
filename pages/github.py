@@ -14,3 +14,5 @@ class GithubPage:
 
     def should_have_text_sign_in(self):
         browser.element('h1').should(have.text('Sign in to GitHub'))
+
+github_page = GithubPage()
