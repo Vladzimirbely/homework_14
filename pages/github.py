@@ -9,7 +9,6 @@ class GithubPage:
         browser.element('.HeaderMenu-link--sign-in').click()
 
     def click_on_sign_in_mobile(self):
-
         browser.element('.Button-label').click()
         browser.element('.HeaderMenu-link--sign-in').click()
 
